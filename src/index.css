@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.app2{
+  background-image: url("img1.jfif");
+  height: 100vh;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+
+}
+
+.container{
+  width: 25%;
+  margin: auto;
+  background-image: url("two.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding: 0 400px 60px 30px!important;
+
+  
+}
+
+h1{
+  text-align: center;
+}
+
