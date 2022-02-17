@@ -22,7 +22,7 @@ shouldComponentUpdate(nextProps, nextState) {
           <h1>LastName : HAMDI</h1>
           <h2>Email : samihamdi2020@gmail.com</h2>
           <h2>Note : {this.state.note}</h2>
-          <img src="./sami.jpg" width="400px" height="300px"></img>
+          <img src="./sami.jpg" width="400px" height="400px"></img>
          
           </div>
        

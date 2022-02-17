@@ -22,12 +22,21 @@ state = {
       <div className="app2">
 <h1>List Of Student</h1>
         <div className="container">
-  
-      { this.state.shows1 && <Child2/>}
-      <button onClick={ ()=> this.setState({shows1 : !this.state.shows1 })}>toggleShowProfileLobna</button>
+  <div>
+  { this.state.shows1 && <Child2/>}
+  <button onClick={ ()=> this.setState({shows1 : !this.state.shows1 })}>toggleShowProfileLobna</button>
+  </div>
+      
+      <div>
       { this.state.shows2 && <Child1/>}
+      
       <button onClick={ ()=> this.setState({shows2 : !this.state.shows2 })}>toggleShowProfileSami</button>
+      
       </div>
+     
+     
+      </div>
+     
       </div>
     )
   }
